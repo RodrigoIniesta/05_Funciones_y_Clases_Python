@@ -20,3 +20,18 @@ dm.load_timeseries(data_type,variable_type,bool_plot=True)
 dm.compute()
 dm.hitogram() 
 print(dm)
+
+def test(a,b):
+    return a+b
+
+x=test(1,2)
+np.random.normal()
+print(x)
+
+class Instrument:
+    def __init__(self,asset,underlying):
+        self.asset=asset
+        self.underlying=underlying
+
+test=Instrument('swap', 'tiie') 
+print(f'prueba de {test.asset} a ver si jala')
